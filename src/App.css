@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'TTForts';
+  src: url('../src/Media/Fonts/TT\ Fors\ Trial\ Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+
+.font-tt-forts {
+  font-family: 'TTForts', sans-serif;
+}
+
+@font-face {
+  font-family: '29L'; 
+  src: url('../Media/Fonts/29LTRi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-29 {
+  font-family: '29L', sans-serif; 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom CSS for horizontal scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
