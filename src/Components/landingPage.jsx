@@ -24,13 +24,7 @@ export default function MainBg() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1 ">
-            <a href="#" className="-m-1.5 p-1.5 text-3xl font-tt-forts">Still Wave
-              <span className="sr-only font-tt-forts">Still Wave</span>
-              <img
-                className="h-8 w-auto"
-                src="#"
-                alt=""
-              />
+            <a href="landingPage.jsx" className="-m-1.5 p-1.5 text-3xl font-tt-forts">Still Wave
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -94,7 +88,7 @@ export default function MainBg() {
 
       <div className="bg-gray-400 min-h-screen flex items-center justify-center">
   <div className="px-6 pt-14 lg:px-8 text-center">
-    <h1 className="font-29 text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl">
+    <h1 className="font-29 text-lg font-bold tracking-tight text-gray-900 sm:text-7xl">
       ستِل ويڤ
     </h1>
     <p className="font-29 mt-6 text-xl leading-8 text-gray-600">
