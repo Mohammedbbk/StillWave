@@ -16,8 +16,14 @@ const navigation = [
   { name: 'تواصل معنا', href: '#contact' },
 ]
 
+
 export default function MainBg() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  
+  const closeMobileMenu = (e) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    setMobileMenuOpen(false);
+  };
 
   return (
     <div className="bg-gray-400 min-h-screen">
@@ -71,10 +77,11 @@ export default function MainBg() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                      <a
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </a>
