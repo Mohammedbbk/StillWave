@@ -45,10 +45,10 @@ export default function Covers() {
     
     <div className="bg-gray-400 font-29 pt-28 w-screen justify-end"> 
     <div className="w-full flex flex-col items-center"> 
-      <h1 className="text-8xl pr-54 font-bold tracking-tight py-4 text-gray-900 sm:text-9xl">
+    <h1 className="text-6xl text-center sm:text-right md:pr-54 font-bold tracking-tight py-4 text-gray-900 sm:text-9xl">
      تصميم الكوفرز
       </h1>
-      <h2 className="sm:text-2xl text-xl font-bold tracking-tight py-4 text-gray-900 sm:text-xl"> 
+      <h2 className="sm:text-3xl text-2xl font-bold tracking-tight py-4 text-gray-900 "> 
       نُبحِر فيها، ونُبدِع
       </h2>
       </div>

@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div>
       <div className="bg-gray-400 font-29  flex justify-end"> 
-        <div className="text-right w-full max-w-7xl"> 
+        <div className="text-right md:pr-32 w-full max-w-7xl"> 
           <h1 className="text-4xl pr-10 font-bold tracking-tight py-4 text-gray-900 sm:text-5xl md:text-6xl">
             ليش لازم تسوّي بودكاست؟ 
           </h1>
@@ -31,7 +31,7 @@ export default function Services() {
       </div>
 
       <div className="bg-gray-400 font-29 pt-36 flex justify-end"> 
-        <div className="text-right w-full max-w-7xl"> 
+        <div className="text-right md:pr-32 w-full max-w-7xl"> 
           <h1 className="text-4xl pr-10 font-bold tracking-tight py-4 text-gray-900 sm:text-5xl md:text-6xl">
             باقة واحدة <br/> بدون تعقيد 
           </h1>
