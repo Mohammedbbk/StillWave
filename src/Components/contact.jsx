@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <div id='contact' className="bg-gray-400 font-29 pt-14 sm:pt-28 w-screen direction-rtl justify-end"> 
       <div className="w-full flex flex-col items-center"> 
-        <h1 className="text-5xl sm:text-8xl md:text-9xl pr-4 sm:pr-54 font-bold tracking-tight py-2 sm:py-4 text-gray-900">
-          نسعد بِك مشارِكًا
+        <h1 style={{ direction: 'rtl' }} className="text-5xl sm:text-8xl md:text-9xl pr-4 sm:pr-54 font-bold tracking-tight py-2 sm:py-4 text-gray-900">
+          نسعد بِك مشارِكًا!
         </h1>
-        <h2 className="text-lg sm:text-xl md:text-2xl text-center font-bold pt-10 sm:pt-20 leading-normal sm:leading-loose tracking-tight py-2 sm:py-4 text-gray-900"> 
-          للتواصل والاستفسارات
+        <h2 style={{ direction: 'rtl' }} className="text-lg sm:text-xl md:text-2xl text-center font-bold pt-10 sm:pt-20 leading-normal sm:leading-loose tracking-tight py-2 sm:py-4 text-gray-900"> 
+          للتواصل والاستفسارات:
           <br/>
           go@istillwave.sa
           <br/>

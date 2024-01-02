@@ -9,11 +9,11 @@ export default function Plans() {
           <h1 className="text-3xl sm:text-4xl md:text-7xl mt-4 font-bold tracking-tight text-gray-900">
             اشترك الآن من هنا
           </h1>
-          <p className="mt-6 text-lg sm:text-2xl md:text-4xl leading-normal sm:leading-loose md:leading-10 font-semibold text-gray-900">
+          <p style={{ direction: 'rtl' }} className="mt-6 text-lg sm:text-2xl md:text-4xl leading-normal sm:leading-loose md:leading-10 font-semibold text-gray-900">
             وتمكن من نـشـر أفكارك <br/>
             بـأفـضـل طـريـقـة <br/>
             لأفـضـل جـمـهـور<br/>
-            وبأعلى انـتـشـار مُمكِن<br/>
+            وبأعلى انـتـشـار مُمكِن.<br/>
           </p>
         </div>
         <div className="container w-full sm:w-1/2 py-5 overflow-x-auto"> 

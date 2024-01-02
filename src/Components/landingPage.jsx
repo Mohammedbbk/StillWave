@@ -88,8 +88,8 @@ export default function MainBg() {
 
       <div className="bg-gray-400 min-h-screen flex items-center justify-center">
   <div className="px-6 pt-14 lg:px-8 text-center">
-    <h1 className="font-29 text-lg font-bold tracking-tight text-gray-900 sm:text-7xl">
-      ستِل ويڤ
+    <h1 className="font-29 text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
+      ستِل ويف
     </h1>
     <p className="font-29 mt-6 text-xl leading-8 text-gray-600">
       منتج برامج البودكاست للأفراد والشركات الناشئة
