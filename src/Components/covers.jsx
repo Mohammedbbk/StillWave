@@ -70,13 +70,13 @@ export default function Covers() {
         {photos.map((photo, index) => (
           <div 
             key={index} 
-            className='flex-shrink-0 mr-2 sm:mr-2 last:mr-0' // Keep margins consistent with your original design
-            style={{ maxWidth: '100%', minWidth: '250px' }} // Apply a minimum width on all screens
+            className='flex-shrink-0 mr-2 sm:mr-2 last:mr-0'
+            style={{ maxWidth: '100%', minWidth: '250px' }}
           >
             <img 
               src={photo.img} 
               alt={`Cover ${index}`} 
-              className='object-cover   h-1/2 sm:h-3/4' // Fixed height class
+              className='object-cover   h-1/2 sm:h-3/4' 
             />
           </div>
         ))}

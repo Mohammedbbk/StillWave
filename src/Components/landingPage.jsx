@@ -21,7 +21,7 @@ export default function MainBg() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   
   const closeMobileMenu = (e) => {
-    e.preventDefault(); // Prevent default anchor behavior
+    e.preventDefault(); 
     setMobileMenuOpen(false);
   };
 
