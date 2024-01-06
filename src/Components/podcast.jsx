@@ -4,40 +4,40 @@ import '../../src/App.css'
 export default function Services() {
   return (
   <div>
-<div class="bg-gray-400 flex font-29 justify-center items-center text-right max-w-7xl">
-    <div style={{ direction: 'rtl' }} class="flex w-3/4 mx-auto flex-col p-4 m-2 justify-center text-center bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <h1 class="mb-2 sm:text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">
-            ليش لازم تسوّي بودكاست؟ 
-        </h1>
-        <ul style={{ direction: 'rtl' }} className='list-disc list-inside'>
-        <li class="text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
-            يمكنك من الوصول لجمهور محدود العدد، لكنه بالغ التأثير <span class='text-sm md:text-lg'>*حسب الإحصاءات، 90% من المستمعين يُكمِلون الحلقة كاملة!</span>
+<div class="bg-gray-400 flex font-29 justify-center items-center ">
+    <div style={{ direction: 'rtl' }} class="flex w-3/4 mx-auto flex-col p-4 m-2 justify-center items-center text-center bg-opacity-60 bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <span class="flex text-center items-center mb-2 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+    ليش لازم تسوّي بودكاست؟ 
+    </span>
+        <ul style={{ direction: 'rtl' }} className='flex flex-col items-center justify-center list-disc list-inside'>
+        <li class="flex text-center items-center text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+            يمكنك من الوصول لجمهور محدود العدد، لكنه بالغ التأثير؛  فحسب الإحصاءات، 90% من المستمعين يُكمِلون الحلقة كاملة!
         </li>
-        <li class="text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
-            بوسعك إقناعه بشكل أسهل من غيره في <span class='font-bold'> الإيمان بأفكارك </span> أو <span class='font-bold'> اقتناء منتجات.</span>
+        <li class="flex text-center items-center text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+            بوسعك إقناعه بشكل أسهل من غيره في  الإيمان بأفكارك  أو  اقتناء منتجات.
         </li>
-        <li class="text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+        <li class="flex text-center items-center text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
          على عكس منصات التواصل الأخرى، لا يشترط امتلاك شهادة موثوق للإعلان داخل الحلقات.
         </li>
-        <li class="text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+        <li class="flex text-center items-center text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
             ولست ملزمًا بالإفصاح عن الإعلان. 
         </li>
-        <li class="text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+        <li class="flex text-center items-center text-xl sm:text-xl md:text-2xl pr-8 tracking-tight py-4 text-gray-900 dark:text-gray-400">
             وهذا يمكنك من جلب إيرادات لك بدون أي تكاليف إضافية.
         </li>
         </ul>
     </div>
     </div>
 
-    <div class="bg-gray-400 flex justify-center items-center font-29 text-right max-w-7xl">
-    <div style={{ direction: 'rtl' }} class="flex w-3/4 mx-auto flex-col p-4 m-2 justify-center text-center bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <h1 class="mb-2 sm:text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">
+    <div class="bg-gray-400  flex justify-center items-center font-29 ">
+    <div style={{ direction: 'rtl' }} class="flex leading-30 w-3/4 mx-auto flex-col justify-center text-center bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h1 class="text-3xl md:text-5xl leading-10 md:leading-30 font-bold text-gray-900 ">
             باقة واحدة <br/> بدون تعقيد 
         </h1>
-        <h1 class="text-xl sm:text-xl md:text-2xl pr-10 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+        <h1 class="text-xl sm:text-xl leading-10 md:leading-30 md:text-2xl  text-gray-900 dark:text-gray-400">
             باشتراك واحد، مرن، غير محدود المدة.
         </h1>
-        <h1 class="text-xl sm:text-xl md:text-2xl pr-10 tracking-tight py-4 text-gray-900 dark:text-gray-400">
+        <h1 class="text-xl sm:text-xl leading-10 md:leading-30 md:text-2xl   text-gray-900 dark:text-gray-400">
             تشمل الباقة إنتاج 8 حلقات بودكاست، <br/>
             بغض النظر عن مدة الحلقة،<br/>
             وبمدة لامحدودة للاشتراك.<br/>
