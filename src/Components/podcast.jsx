@@ -1,11 +1,18 @@
 import React from 'react';
 import '../../src/App.css'
+import { useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Services() {
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
+
   return (
   <div>
 <div class="bg-gray-400 flex font-29 justify-center items-center  ">
-    <div style={{ direction: 'rtl' }} class="flex w-3/4 mx-auto p-8 flex-col m-2 justify-center items-center text-center bg-opacity-60 bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div style={{ direction: 'rtl' }}  class="transform transition duration-400 hover:scale-105 flex w-3/4 mx-auto p-8 flex-col m-2 justify-center items-center text-center bg-opacity-60 bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
     <span class="flex text-center items-center mb-2 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
     ليش لازم تسوّي بودكاست؟ 
     </span>
