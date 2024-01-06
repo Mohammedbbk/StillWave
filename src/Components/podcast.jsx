@@ -32,7 +32,7 @@ export default function Services() {
     <div class="bg-gray-400  flex justify-center items-center font-29 ">
     <div style={{ direction: 'rtl' }} class="flex leading-30 w-3/4 mx-auto flex-col justify-center text-center bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h1 class="text-3xl md:text-5xl leading-10 md:leading-30 font-bold text-gray-900 ">
-            باقة واحدة <br/> بدون تعقيد 
+            باقة واحد <br/> بدون تعقيد! 
         </h1>
         <h1 class="text-xl sm:text-xl leading-10 md:leading-30 md:text-2xl  text-gray-900 dark:text-gray-400">
             باشتراك واحد، مرن، غير محدود المدة.
@@ -40,7 +40,7 @@ export default function Services() {
         <h1 class="text-xl sm:text-xl leading-10 md:leading-30 md:text-2xl   text-gray-900 dark:text-gray-400">
             تشمل الباقة إنتاج 8 حلقات بودكاست، <br/>
             بغض النظر عن مدة الحلقة،<br/>
-            وبمدة لامحدودة للاشتراك.<br/>
+            وبمدة لا محدودة للاشتراك.<br/>
         </h1>
     </div>
 </div>
