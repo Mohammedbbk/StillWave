@@ -2,29 +2,25 @@ import { useState } from 'react';
 
 export default function Audio() {
   return (
-    <div  className="background-color text-color font-29 pt-28 pb-10 flex justify-end">
-    <div className="w-full max-w-7xl">
-      <div className="flex flex-col md:flex-row-reverse md:items-start">
-        <div className="md:w-1/2 text-center md:pr-32 md:text-right md:-mt-16 pr-0">  
-          <h1 className="text-5xl font-bold tracking-tight py-4 text-gray-900 sm:text-8xl md:text-9xl">
-            تحـريــر <br/> الصوت 
+    <div  style={{ direction: 'rtl' }} className="background-color text-color  md:pt-32 flex justify-center items-center font-ibm ">
+    <div className="pattern element-class transform transition duration-400 md:hover:scale-105 flex w-full md:w-3/4 mx-auto p-8 flex-col md:m-2 justify-center items-center text-center md:rounded-xl ">
+          <h1  className="text-4xl md:text-5xl leading-10 md:leading-30 font-bold text-gray-900">
+            تحـريــر الصوت 
           </h1>
-          <h2  className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight py-4 pr-4 md:pr-28 text-gray-900">
-            !لعبتنا  
+          <h2   className="text-xl md:text-4xl flex  justify-center   text-gray-900">
+          لعبتنا!  
           </h2>
-        </div>
-          <div className="md:w-1/2 text-center md:text-right md:pr-28">
-            <h2 style={{ direction: 'rtl' }} className="text-lg tracking-tight py-4 text-gray-900 sm:text-xl md:text-2xl">
+          <div className="text-xl leading-10 md:leading-30 md:text-2xl  text-gray-900 dark:text-gray-400">
+            <h2  className="">
               نمتلك القدرة والخبرة في تحرير الصوت <br/>
               بغض النظر عن ظروف التسجيل.
             </h2>
-            <h2 style={{ direction: 'rtl' }} className="text-lg font-bold tracking-tight py-4 text-gray-900 sm:text-xl md:text-3xl">
+            <h2 className="  ">
               المطلوب للوصول لجودة الاستوديوهات: <br/>
               آيفون، وبيئة هادئة.
             </h2>
           </div>
         </div>
       </div>
-    </div>
   );
 }

@@ -40,7 +40,7 @@ export default function Covers() {
   }, []);
 
   return (
-    <div className="background-color text-color font-29 pt-28 w-screen justify-end">
+    <div className="background-color font-ibm pt-28 w-screen justify-end">
       <div className="w-full flex flex-col items-center">
         <h1 className="text-6xl text-center sm:text-right md:pr-54 font-bold tracking-tight py-4 text-gray-900 sm:text-9xl">
           تصميم الكوفرز
