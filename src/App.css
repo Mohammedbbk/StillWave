@@ -18,6 +18,28 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'ibm';
+  src: url('./Media/Fonts/IBMPlexSansArabic-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-ibm{
+  font-family: 'ibm',  sans-serif;
+}
+@font-face {
+  font-family: 'Sche';
+  src: url('./Media/Fonts/ScheherazadeNew-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-sche{
+  font-family: 'Sche',  sans-serif;
+}
+
 .font-29 {
   font-family: '29L', sans-serif;
 }
@@ -28,6 +50,7 @@ html {
 
 body {
   overflow-x: hidden;
+  
 
 }
 
@@ -52,4 +75,84 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 4px;
+}
+
+.text-color {
+  color: #111827;
+}
+
+.background-color {
+  background-color: #f4f4f4;
+
+}
+.element-class {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 20 20/var(--tw-border-opacity)); /* Mimic the border color */
+  background-color: rgb(225 225 225/var(--tw-bg-opacity)); /* Base gray background color */
+  background-image: 
+    radial-gradient(circle, rgba(255,255,255,.2) 1px, transparent 1px),
+    radial-gradient(circle, rgba(0,0,0,.2) 1px, transparent 1px);
+  background-size: 2px 2px;
+  background-position: 0 0, 1px 1px;
+
+
+}
+@media screen and (min-width: 768px) { 
+  .element-class {
+    --tw-border-opacity: 1;
+    border-color: rgb(20 20 20/var(--tw-border-opacity)); /* Mimic the border color */
+    background-color: rgb(225 225 225/var(--tw-bg-opacity)); /* Base gray background color */
+    background-image: 
+      radial-gradient(circle, rgba(255,255,255,.2) 1px, transparent 1px),
+      radial-gradient(circle, rgba(0,0,0,.2) 1px, transparent 1px);
+    background-size: 2px 2px;
+    background-position: 0 0, 1px 1px;
+    box-shadow:  29px 29px 0px #5a5a5a,
+               -29px -29px 0px #ffffff;
+  
+  }
+
+}
+
+.pattern {
+  background-image: 
+    repeating-linear-gradient(
+      233deg, 
+      rgba(0, 0, 0, 0.1), /* Slightly darken the pattern */
+      rgba(0, 0, 0, 0.1) 1px, 
+      transparent 1px, 
+      transparent 2px
+    ),
+    radial-gradient(
+      circle, 
+      rgba(0, 0, 0, 0.1) 1px, /* Slightly darken the pattern */
+      transparent 1px
+    );
+  background-color: rgb(225 225 225); /* Base gray background color */
+  background-blend-mode: multiply; /* Use multiply to blend the pattern with the base color */
+  background-size: 10px, auto; /* Size for the pattern */
+}
+
+.primary-color {
+  color: #3366d5;
+}
+
+.primary-background {
+  background-color: #6D7992;
+}
+
+.secondary-color {
+  color: #97afe3;
+}
+
+.secondary-background {
+  background-color: #97afe3;
+}
+
+.accent-color {
+  color: #688ede;
+}
+
+.accent-background {
+  background-color: #688ede;
 }

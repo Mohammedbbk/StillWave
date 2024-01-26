@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Plans() {
   return (
-    <div id='Plans' className="bg-gray-400 font-29 min-h-screen flex items-center justify-center">
+    <div id='Plans' className="background-color text-color font-29 min-h-screen flex items-center justify-center">
       <div className="flex flex-col sm:flex-row items-start w-full max-w-7xl px-4 sm:px-8"> 
         <div className="flex flex-col w-full sm:w-1/2 pr-0 sm:pr-8 text-center sm:text-right direction-rtl">
           <h1 className="text-3xl sm:text-4xl md:text-7xl mt-4 font-bold tracking-tight text-gray-900">

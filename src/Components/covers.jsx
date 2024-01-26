@@ -40,7 +40,7 @@ export default function Covers() {
   }, []);
 
   return (
-    <div className="bg-gray-400 font-29 pt-28 w-screen justify-end">
+    <div className="background-color text-color font-29 pt-28 w-screen justify-end">
       <div className="w-full flex flex-col items-center">
         <h1 className="text-6xl text-center sm:text-right md:pr-54 font-bold tracking-tight py-4 text-gray-900 sm:text-9xl">
           تصميم الكوفرز
@@ -65,32 +65,6 @@ export default function Covers() {
         ))}
       </div>
 
-      <div
-        ref={coversRef}
-        id="covers"
-        className="relative mt-20 sm:mt-16 -mb-32 w-full sm:w-3/5 mx-auto flex overflow-x-auto scrollbar-hide"
-      >
-        {photos.map((photo, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 mr-2 sm:mr-2 last:mr-0"
-            style={{ maxWidth: "100%", minWidth: "250px" }}
-          >
-            <img
-              src={photo.img}
-              alt={`Cover ${index}`}
-              className="object-cover   h-1/2 sm:h-3/4"
-            />
-          </div>
-        ))}
-      </div>
-
-      <div className="flex justify-center items-center gap-10 ">
-        <div className="w-5 h-5 sm:h-10 sm:w-10 bg-transparent border-t border-l border-gray-500 -rotate-45 hover:border-gray-900"></div>
-        <div className="rotate-90">
-          <div className="w-5 h-5 sm:h-10 sm:w-10 bg-transparent border-t border-l border-gray-500 rotate-45 hover:border-gray-900"></div>
-        </div>
-      </div>
     </div>
   );
 }

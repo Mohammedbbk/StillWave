@@ -11,8 +11,8 @@ export default function Services() {
 
   return (
   <div>
-<div class="bg-gray-400 flex font-29 justify-center items-center  ">
-    <div style={{ direction: 'rtl' }}  class="transform transition duration-400 hover:scale-105 flex w-3/4 mx-auto p-8 flex-col m-2 justify-center items-center text-center bg-opacity-60 bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div class="background-color text-color flex font-ibm justify-center items-center  ">
+    <div style={{ direction: 'rtl' }}  class="pattern element-class transform transition duration-400 md:hover:scale-105 flex w-full md:w-3/4 mx-auto p-8 flex-col md:m-2 justify-center items-center text-center md:rounded-xl sm:p-8">
     <span class="flex text-center items-center mb-2 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
     ليش لازم تسوّي بودكاست؟ 
     </span>
@@ -36,8 +36,8 @@ export default function Services() {
     </div>
     </div>
 
-    <div class="bg-gray-400  flex justify-center items-center font-29 ">
-    <div style={{ direction: 'rtl' }} class="flex leading-30 w-3/4 mx-auto p-8 flex-col justify-center text-center bg-gray-300 border border-gray-400 rounded-xl shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div class="background-color text-color  md:pt-32 flex justify-center items-center font-ibm ">
+    <div style={{ direction: 'rtl' }} class="pattern element-class transform transition duration-400 md:hover:scale-105 flex w-full md:w-3/4 mx-auto p-8 flex-col md:m-2 justify-center items-center text-center md:rounded-xl sm:p-8">
         <h1 class="text-3xl md:text-5xl leading-10 md:leading-30 font-bold text-gray-900 ">
             باقة واحد <br/> بدون تعقيد! 
         </h1>

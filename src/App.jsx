@@ -21,41 +21,23 @@ function App() {
   return (
     <div>
     <MainBg/>
-      <div className="flex justify-center bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+
     <Services/>
-      <div className="flex justify-center bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+  
     <Podcast/>
-      <div className="flex justify-center pt-16 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+ 
     <Audio/>
-      <div className="flex justify-center bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+ 
     <Covers/>
-    <div className="flex justify-center pt-16 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t  border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+ 
     <Distribute/>
-    <div className="flex justify-center pt-32 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+    
     <ContentWriting/>
-    <div className="flex justify-center pt-40 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+   
     <Consulting/>
-    <div className="flex justify-center pt-40 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+  
     <Plans/>
-    <div className="flex justify-center pt-14 bg-gray-400"> 
-        <Separator orientation="horizontal" className="border-t pb-16 border-gray-900 h-[1.5px] border-solid w-3/4" />
-      </div>
+ 
     <Contact/>
    
     </div>

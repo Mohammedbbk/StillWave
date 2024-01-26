@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Audio() {
   return (
-    <div  className="bg-gray-400 font-29 pt-28 pb-10 flex justify-end">
+    <div  className="background-color text-color font-29 pt-28 pb-10 flex justify-end">
     <div className="w-full max-w-7xl">
       <div className="flex flex-col md:flex-row-reverse md:items-start">
         <div className="md:w-1/2 text-center md:pr-32 md:text-right md:-mt-16 pr-0">  

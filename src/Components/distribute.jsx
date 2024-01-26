@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Distribute() {
   return (
-    <div className="bg-gray-400 pt-20 md:pr-28  sm:pt-56 w-screen font-29 flex justify-center sm:justify-end">
+    <div className="background-color text-color pt-20 md:pr-28  sm:pt-56 w-screen font-29 flex justify-center sm:justify-end">
       <div className="text-center sm:text-right max-w-xs sm:max-w-7xl mx-4 sm:mx-0"> 
         <h1 style={{ direction: 'rtl' }} className="text-5xl sm:text-7xl md:text-8xl px-4 sm:pr-28 font-bold tracking-tight py-2 sm:py-4 text-gray-900">
           الـنشـر والـتـوزيـع:

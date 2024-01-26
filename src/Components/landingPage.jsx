@@ -26,7 +26,7 @@ export default function MainBg() {
   };
 
   return (
-    <div className="bg-gray-400 min-h-screen">
+    <div className="background-color min-h-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1 ">
@@ -45,7 +45,7 @@ export default function MainBg() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-lg font-tt-forts font-semibold leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-lg font-ibm leading-6 text-gray-900">
                 {item.name}
               </a>
             ))}
@@ -58,7 +58,7 @@ export default function MainBg() {
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-400 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto background-color px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
@@ -80,7 +80,7 @@ export default function MainBg() {
                       <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-ibm leading-7 text-gray-900 hover:bg-gray-50"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
@@ -93,12 +93,12 @@ export default function MainBg() {
         </Dialog>
       </header>
 
-      <div className="bg-gray-400 min-h-screen flex items-center justify-center">
+      <div className="background-color text-color min-h-screen flex items-center justify-center">
   <div className="px-6 pt-14 lg:px-8 text-center">
-    <h1 className="font-29 text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
+    <h1 className="font-ibm text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
       ستِل ويف
     </h1>
-    <p className="font-29 mt-6 text-xl leading-8 text-gray-600">
+    <p className="font-ibm mt-6 text-xl leading-8 text-gray-600">
       منتج برامج البودكاست للأفراد والشركات الناشئة
     </p>
   </div>
