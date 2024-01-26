@@ -10,7 +10,7 @@ export default function Covers() {
   const [photos] = useState([
     { img: image7 },
     { img: image8 },
-    { img: image9 },
+    // { img: image9 },
     { img: image10 },
     { img: image11 },
     { img: image12 },
