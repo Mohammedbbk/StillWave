@@ -99,19 +99,13 @@ body::-webkit-scrollbar-thumb {
 }
 @media screen and (min-width: 768px) { 
   .element-class {
-    --tw-border-opacity: 1;
-    border-color: rgb(20 20 20/var(--tw-border-opacity)); /* Mimic the border color */
-    background-color: rgb(225 225 225/var(--tw-bg-opacity)); /* Base gray background color */
-    background-image: 
-      radial-gradient(circle, rgba(255,255,255,.2) 1px, transparent 1px),
-      radial-gradient(circle, rgba(0,0,0,.2) 1px, transparent 1px);
-    background-size: 2px 2px;
-    background-position: 0 0, 1px 1px;
-    box-shadow:  29px 29px 0px #5a5a5a,
-               -29px -29px 0px #ffffff;
-  
-  }
 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px,
+    rgba(0, 0, 0, 0.3) 0px 10px,
+    rgba(0, 0, 0, 0.2) 0px 15px,
+    rgba(0, 0, 0, 0.1) 0px 20px,
+    rgba(0, 0, 0, 0.05) 0px 25px;
+  }
 }
 
 .pattern {
@@ -132,13 +126,14 @@ body::-webkit-scrollbar-thumb {
   background-blend-mode: multiply; /* Use multiply to blend the pattern with the base color */
   background-size: 10px, auto; /* Size for the pattern */
 }
+
+
 .pattern2{
   border-radius: 23px;
   background: #2b2b2b; /* Dark gray background color */
   box-shadow: 29px 29px 0px #111111, /* Inner shadow */
               -29px -29px 0px #454545; /* Outer shadow */
 
-  /* The dark pattern */
   background-image: 
     repeating-linear-gradient(
       233deg, 
@@ -157,26 +152,22 @@ body::-webkit-scrollbar-thumb {
   background-size: 10px, auto; /* Size for the pattern */
 }
 
-.primary-color {
-  color: #3366d5;
+.hovering{
+  text-decoration: none;
 }
 
-.primary-background {
-  background-color: #6D7992;
+.hovering::after {
+  content: '';
+  display: block;
+  width: 0;
+  padding-top: 2px;
+  height: 3px;
+  background: #111827;
+  transition: width .1s;
 }
 
-.secondary-color {
-  color: #97afe3;
-}
-
-.secondary-background {
-  background-color: #97afe3;
-}
-
-.accent-color {
-  color: #688ede;
-}
-
-.accent-background {
-  background-color: #688ede;
+.hovering:hover::after {
+  padding-top: 2px;
+  width: 100%;
+  transition: width .3s;
 }
