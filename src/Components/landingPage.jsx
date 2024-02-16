@@ -7,7 +7,7 @@ import '../Components/services'
 import '../Components/covers'
 import '../Components/plans'
 import '../Components/contact'
-
+import videoSrc from '../Media/Covers/Bg_vid.mp4'
 
 const navigation = [
   { name: 'خدماتنا', href: '#Services' },
@@ -27,6 +27,14 @@ export default function MainBg() {
 
   return (
     <div className="background-color min-h-screen">
+      <section className="showcase">
+        <div className="video-container">
+          <video autoPlay loop muted>
+            <source src={videoSrc} type="video/mp4" />
+          </video>
+    		</div>
+	
+
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1 ">
@@ -45,7 +53,7 @@ export default function MainBg() {
           </div>
           <div className="hidden  lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-xl hovering font-ibm leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-xl hovering font-ibm leading-6 text-gray-200">
                 {item.name}
               </a>
             ))}
@@ -89,16 +97,17 @@ export default function MainBg() {
         </Dialog>
       </header>
 
-      <div className="background-color text-color min-h-screen flex items-center justify-center">
+      <div className=" z-50 text-color min-h-screen flex items-center justify-center">
   <div className="px-6 pt-14 lg:px-8 text-center">
-    <h1 className="font-ibm text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
+    <h1 className="font-ibm text-5xl font-bold tracking-tight text-gray-200 sm:text-8xl">
       ستِل ويف
     </h1>
-    <p className="font-ibm mt-6 text-xl leading-8 text-gray-600">
+    <p className="font-ibm mt-6 text-2xl leading-8 text-gray-200">
       منتج برامج البودكاست للأفراد والشركات الناشئة
     </p>
   </div>
 </div>
+</section>
 
     </div>
   )

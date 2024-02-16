@@ -1,29 +1,46 @@
 import { useState } from 'react';
 import '../../src/App.css'
 
+
 export default function Contact() {
   return (
-    <div id='contact' className="background-color text-color font-29 pt-14 sm:pt-28 w-screen direction-rtl justify-end"> 
-      <div className="w-full flex flex-col items-center"> 
-        <h1 style={{ direction: 'rtl' }} className="text-5xl sm:text-8xl md:text-9xl pr-4 sm:pr-54 font-bold tracking-tight py-2 sm:py-4 text-gray-900">
-          نسعد بِك مشارِكًا!
-        </h1>
-        <h2 style={{ direction: 'rtl' }} className="text-lg sm:text-xl md:text-2xl text-center font-bold pt-10 sm:pt-20 leading-normal sm:leading-loose tracking-tight py-2 sm:py-4 text-gray-900"> 
-          للتواصل والاستفسارات:
-          <br/>
-          go@istillwave.sa
-          <br/>
-          9660505623970
-          <br/>
-          واتساب فقط
-        </h2>
+    <div id='contact' className=""> 
+     <footer class="bg-black dark:bg-gray-900">
+      
+<div class="mx-auto w-full max-w-screen-xl pt-4">
+  <div class="flex justify-between items-center">
+    <a href="landingPage.jsx" class="text-gray-200 text-xl md:text-3xl font-tt-forts">Still Wave</a>
+    <div class="flex"></div>
+    <div class="flex space md:space-x-6">
+      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200 dark:text-white">خدماتنا</a>
+      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200  dark:text-white">الباقات</a>
+      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200  dark:text-white">أعمالنا</a>
+    </div>
+  </div>
+</div>
+
+      <hr class="my-6 border-gray-200 sm:mx-auto" />
+      <div class="flex items-center justify-between">
+          <span class="text-sm flex text-gray-500  justify-center text-center pb-5 pl-12  dark:text-gray-400">© 2023 StillWave™ جميع الحقوق محفوظة 
+          </span>
+          <div class="flex  pb-5 pr-16 mr-3 justify-center">
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                    </svg>
+                  <span class="sr-only">Facebook page</span>
+              </a>
+
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Twitter page</span>
+              </a>
+            
+          </div>
       </div>
-      <div className="flex items-center justify-between p-4 lg:px-8" aria-label="Footer">
-        <div className="flex lg:flex-1 ">
-          <a href="#" className="-m-1.5 p-1.5 text-xl sm:text-3xl font-tt-forts">Still Wave
-          </a>
-        </div>
-      </div>
+</footer>
     </div>
   );
 }

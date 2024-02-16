@@ -9,7 +9,7 @@ export default function Services() {
     AOS.init({duration:1200})
   })
   return (
-    <div id="Services" className="md:leading-3 background-color md:pb-64 flex justify-center text-center">
+    <div id="Services" className="md:leading-3 background-color md:pt-36 md:pb-64 flex justify-center text-center">
     <div
       style={{ direction: 'rtl' }}
       className=" flex w-full md:w-3/4 mx-auto flex-col p-4 md:m-2 justify-center text-center md:border md:rounded-xl sm:p-8 pattern element-class"
