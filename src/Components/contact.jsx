@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import '../../src/App.css'
-
-
+import insta from '../Media/Platforms/nstagram-1.svg'
 export default function Contact() {
   return (
     <div id='contact' className=""> 
      <footer class="bg-black dark:bg-gray-900">
       
-<div class="mx-auto w-full max-w-screen-xl pt-4">
+<div class="mx-auto w-full max-w-screen-xl right-26 pt-4">
   <div class="flex justify-between items-center">
     <a href="landingPage.jsx" class="text-gray-200 text-xl md:text-3xl font-tt-forts">Still Wave</a>
     <div class="flex"></div>
@@ -24,20 +23,20 @@ export default function Contact() {
           <span class="text-sm flex text-gray-500  justify-center text-center pb-5 pl-12  dark:text-gray-400">© 2023 StillWave™ جميع الحقوق محفوظة 
           </span>
           <div class="flex  pb-5 pr-16 mr-3 justify-center">
-              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-                    </svg>
-                  <span class="sr-only">Facebook page</span>
-              </a>
+          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 50 50">
+                  <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
+              </svg>
+              <span class="sr-only">X page</span>
+          </a>
 
-              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                </svg>
-                  <span class="sr-only">Twitter page</span>
-              </a>
-            
+          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M31.82031,12c-18.381,0 -19.82031,1.43931 -19.82031,19.82031v0.35938c0,18.381 1.43931,19.82031 19.82031,19.82031h0.35938c18.381,0 19.82031,-1.43931 19.82031,-19.82031v-0.17969c0,-18.548 -1.452,-20 -20,-20zM28,16h8c11.129,0 12,0.871 12,12v8c0,11.129 -0.871,12 -12,12h-8c-11.129,0 -12,-0.871 -12,-12v-8c0,-11.129 0.871,-12 12,-12zM41.99414,20c-1.105,0.003 -1.99714,0.90086 -1.99414,2.00586c0.003,1.105 0.90086,1.99714 2.00586,1.99414c1.105,-0.003 1.99714,-0.90086 1.99414,-2.00586c-0.003,-1.105 -0.90086,-1.99714 -2.00586,-1.99414zM31.97656,22c-5.522,0.013 -9.98956,4.50144 -9.97656,10.02344c0.013,5.522 4.50144,9.98956 10.02344,9.97656c5.522,-0.013 9.98956,-4.50144 9.97656,-10.02344c-0.013,-5.522 -4.50144,-9.98956 -10.02344,-9.97656zM31.98633,26c3.313,-0.008 6.00567,2.67333 6.01367,5.98633c0.007,3.313 -2.67333,6.00567 -5.98633,6.01367c-3.313,0.008 -6.00567,-2.67233 -6.01367,-5.98633c-0.008,-3.313 2.67333,-6.00567 5.98633,-6.01367z"></path>
+              </svg>
+              <span class="sr-only">Instagram page</span>
+          </a>
+  
           </div>
       </div>
 </footer>
