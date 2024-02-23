@@ -1,44 +1,40 @@
 import { useState } from 'react';
-import '../../src/App.css'
-import insta from '../Media/Platforms/nstagram-1.svg'
+import '../../src/App.css';
+
 export default function Contact() {
   return (
-    <div id='contact' className=""> 
-     <footer class="bg-black dark:bg-gray-900">
-      
-<div class="mx-auto w-full max-w-screen-xl right-26 pt-4">
-  <div class="flex justify-between items-center">
-    <a href="landingPage.jsx" class="text-gray-200 text-xl md:text-3xl font-tt-forts">Still Wave</a>
-    <div class="flex"></div>
-    <div class="flex space md:space-x-6">
-      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200 dark:text-white">خدماتنا</a>
-      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200  dark:text-white">الباقات</a>
-      <a href="#" class="text-sm md:text-xl font-semibold font-ibm text-gray-200  dark:text-white">أعمالنا</a>
-    </div>
-  </div>
-</div>
-
-      <hr class="my-6 border-gray-200 sm:mx-auto" />
-      <div class="flex items-center justify-between">
-          <span class="text-sm flex text-gray-500  justify-center text-center pb-5 pl-12  dark:text-gray-400">© 2023 StillWave™ جميع الحقوق محفوظة 
-          </span>
-          <div class="flex  pb-5 pr-16 mr-3 justify-center">
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-              <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 50 50">
-                  <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
-              </svg>
-              <span class="sr-only">X page</span>
-          </a>
-
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-              <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
-                  <path d="M31.82031,12c-18.381,0 -19.82031,1.43931 -19.82031,19.82031v0.35938c0,18.381 1.43931,19.82031 19.82031,19.82031h0.35938c18.381,0 19.82031,-1.43931 19.82031,-19.82031v-0.17969c0,-18.548 -1.452,-20 -20,-20zM28,16h8c11.129,0 12,0.871 12,12v8c0,11.129 -0.871,12 -12,12h-8c-11.129,0 -12,-0.871 -12,-12v-8c0,-11.129 0.871,-12 12,-12zM41.99414,20c-1.105,0.003 -1.99714,0.90086 -1.99414,2.00586c0.003,1.105 0.90086,1.99714 2.00586,1.99414c1.105,-0.003 1.99714,-0.90086 1.99414,-2.00586c-0.003,-1.105 -0.90086,-1.99714 -2.00586,-1.99414zM31.97656,22c-5.522,0.013 -9.98956,4.50144 -9.97656,10.02344c0.013,5.522 4.50144,9.98956 10.02344,9.97656c5.522,-0.013 9.98956,-4.50144 9.97656,-10.02344c-0.013,-5.522 -4.50144,-9.98956 -10.02344,-9.97656zM31.98633,26c3.313,-0.008 6.00567,2.67333 6.01367,5.98633c0.007,3.313 -2.67333,6.00567 -5.98633,6.01367c-3.313,0.008 -6.00567,-2.67233 -6.01367,-5.98633c-0.008,-3.313 2.67333,-6.00567 5.98633,-6.01367z"></path>
-              </svg>
-              <span class="sr-only">Instagram page</span>
-          </a>
-  
-          </div>
+<div id='contact' className=""> 
+  <footer class="bg-black dark:bg-gray-900">
+    <div class="flex flex-nowrap justify-between items-center w-full py-2">
+      <a href="landingPage.jsx" class="text-gray-200 text-xl ml-4 md:text-3xl font-tt-forts whitespace-nowrap">Still Wave</a>
+      <div class="flex flex-nowrap items-center justify-end w-full md:w-auto">
+        <a href="#Services" class="px-2 md:px-5 text-gray-200 text-base md:text-xl font-semibold font-ibm whitespace-nowrap">خدماتنا</a>
+        <a href="#Plans" class="px-2 md:px-5 text-gray-200 text-base md:text-xl font-semibold font-ibm whitespace-nowrap">الباقات</a>
+        <a href="#covers" class="px-2 md:px-5 text-gray-200 text-base md:text-xl font-semibold font-ibm whitespace-nowrap">أعمالنا</a>
       </div>
+    </div>
+    <div class="relative -top-3 md:-top-6 flex items-center justify-center">
+      <div class="flex-grow border-t mt-2  border-gray-400"></div>
+      <div class="flex relative gap-1 md:gap-4 px-4">
+        <a href="https://www.instagram.com/istillwave?igsh=dzFjNzlwNjNqZGp1" class="text-gray-200 hover:text-gray-500 dark:hover:text-white">
+              <svg class="w-6 h-6 md:w-8 md:h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+                  <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"/></svg>
+          </a>      <a href="https://instagram.com" class="hover:text-gray-300">Ig</a>
+          <a href="https://x.com/istillwave?s=21" class="text-gray-200 hover:text-gray-500 dark:hover:text-white">
+                <svg class="w-6 h-6 md:w-8 md:h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 50 50">
+                    <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
+                </svg>
+                <span class="sr-only">X page</span>
+            </a>
+      </div>
+      <div class="flex-grow mt-2 border-t border-gray-400"></div>
+    </div>
+
+
+  <div class="flex relative -top-3 justify-center right-4 ">
+          <span class="text-sm flex  ml-8 text-gray-500 dark:text-gray-400">© 2023 StillWave™ جميع الحقوق محفوظة 
+          </span>
+     </div>
 </footer>
     </div>
   );
