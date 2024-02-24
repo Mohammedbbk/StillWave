@@ -1,31 +1,28 @@
-
 import React from 'react';
 
 export default function Plans() {
   return (
-    <div id='Plans' className="background-color text-color font-29 min-h-screen flex items-center justify-center">
-      <div className="flex flex-col sm:flex-row items-start w-full max-w-7xl px-4 sm:px-8"> 
-        <div className="flex flex-col w-full sm:w-1/2 pr-0 sm:pr-8 text-center sm:text-right direction-rtl">
-          <h1 className="text-3xl sm:text-4xl md:text-7xl mt-4 font-bold tracking-tight text-gray-900">
-            اشترك الآن من هنا
-          </h1>
-          <p style={{ direction: 'rtl' }} className="mt-6 text-lg sm:text-2xl md:text-4xl leading-normal sm:leading-loose md:leading-10 font-semibold text-gray-900">
-            وتمكن من نـشـر أفكارك <br/>
-            بـأفـضـل طـريـقـة <br/>
-            لأفـضـل جـمـهـور<br/>
-            وبأعلى انـتـشـار مُمكِن.<br/>
-          </p>
-        </div>
-        <div className="container w-full sm:w-1/2 py-5 overflow-x-auto"> 
-          <table className="table-auto w-full text-xs sm:text-xl md:text-2xl text-center sm:text-right">
+    <div id='Plans' className="md:leading-3 background-color md:pt-36 md:pb-64 flex justify-center text-center">
+      <div className="pattern element-class transform transition duration-400 md:hover:scale-105 flex w-full md:w-1/2 mx-auto p-8 flex-col md:m-2 justify-center items-center text-center md:rounded-xl">
+        <h1 className="text-3xl md:text-5xl leading-8 md:leading-30 font-bold text-gray-900 dark:text-white">
+          اشترك الآن من هنا
+        </h1>
+        <p className="mb-5 text-base md:text-2xl dark:text-gray-400">
+          وتمكن من نـشـر أفكارك <br/>
+          بـأفـضـل طـريـقـة <br/>
+          لأفـضـل جـمـهـور<br/>
+          وبأعلى انـتـشـار مُمكِن.<br/>
+        </p>
+        <div className="container mx-auto py-5 overflow-x-auto">
+          <table className="table-auto w-full text-xs md:text-xl text-center">
             <thead className="bg-gray-900 text-white">
               <tr>
-                <th className="px-2 sm:px-4 py-2">الباقة الأساسية</th>
-                <th className="px-2 sm:px-4 py-2">عدد المميزات</th>
+                <th className="px-2 md:px-4 py-2">الباقة الأساسية</th>
+                <th className="px-2 md:px-4 py-2">عدد المميزات</th>
               </tr>
             </thead>
             <tbody className="bg-gray-400">
-            <tr>
+<tr>
                 <td className="border px-4 py-2">ثمانية حلقات غير محدودة المدة <br/> ويشمل ذلك     </td>
                 <td className="border px-4 py-2">١</td>
               </tr>
@@ -52,9 +49,7 @@ export default function Plans() {
               <tr>
                 <td className="border px-4 py-2">3749 ريال سعودي</td>
                 <td className="border px-4 py-2">قيمة <br/> الاستثمار</td>
-              </tr>                            </tbody>
-            <tfoot>
-            </tfoot>
+              </tr>                                   </tbody>
           </table>
         </div>
       </div>
